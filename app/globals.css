@@ -8,6 +8,9 @@
   --color-placeholder: #b0b0b0;
   --color-cloud: #f5f5f6;
   --color-mist: #e5e6e8;
+  --color-navy: #040819;
+  --color-line: #ced0d3;
+  --color-badge: #4f4f4f;
 
   --font-sans: "Satoshi", system-ui, sans-serif;
   --font-heading: var(--font-poppins), system-ui, sans-serif;

@@ -41,3 +41,11 @@ export const StarIcon = (props) => (
     <path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1L12 2Z" />
   </svg>
 );
+
+export const LevelIcon = (props) => (
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden {...props}>
+    <rect x="3" y="14" width="4" height="7" rx="1" />
+    <rect x="10" y="9" width="4" height="12" rx="1" />
+    <rect x="17" y="3" width="4" height="18" rx="1" />
+  </svg>
+);
