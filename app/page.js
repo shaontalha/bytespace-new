@@ -4,6 +4,8 @@ import Partners from "@/components/sections/Partners";
 import Courses from "@/components/sections/Courses";
 import Categories from "@/components/sections/Categories";
 import Growth from "@/components/sections/Growth";
+import Testimonials from "@/components/sections/Testimonials";
+import CreatorCTA from "@/components/sections/CreatorCTA";
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
         <Courses />
         <Categories />
         <Growth />
+        <CreatorCTA />
+        <Testimonials />
       </main>
     </>
   );

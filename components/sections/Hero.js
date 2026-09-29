@@ -4,6 +4,7 @@ import Container from "@/components/ui/Container";
 import FloatingCard from "@/components/ui/FloatingCard";
 import { SearchIcon, StarIcon } from "@/components/ui/Icons";
 import { heroShapes, studentAvatars } from "@/lib/data";
+   import ShapeLayer from "@/components/ui/ShapeLayer";
 
 export default function Hero() {
   return (
