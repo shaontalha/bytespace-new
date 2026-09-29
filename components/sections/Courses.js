@@ -54,7 +54,7 @@ export default function Courses() {
       </div>
 
       {/* Course cards */}
-      <div className="mt-10 grid gap-10 md:grid-cols-2 lg:mt-[77px] lg:grid-cols-3">
+      <div className="mt-10 grid-cols-1 grid gap-10 md:grid-cols-2 lg:mt-[77px] lg:grid-cols-3">
         {courses.map((course) => (
           <CourseCard key={course.id} course={course} />
         ))}

@@ -49,3 +49,17 @@ export const LevelIcon = (props) => (
     <rect x="17" y="3" width="4" height="18" rx="1" />
   </svg>
 );
+
+export const CheckCircleIcon = (props) => (
+  <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden {...props}>
+    <circle cx="12" cy="12" r="10" fill="currentColor" />
+    <path
+      d="m7.5 12.3 3 3 6-6.3"
+      fill="none"
+      stroke="#fff"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);

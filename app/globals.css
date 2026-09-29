@@ -28,3 +28,25 @@ body {
   background-size: 120px 120px;
   background-position: 0 118px;
 }
+
+/* Girl (Create & Manage section) */
+.shadow-girl {
+  filter: drop-shadow(0.52px 0.74px 3.04px #0000000a)
+    drop-shadow(2.23px 3.19px 5.72px #0000000f)
+    drop-shadow(5.38px 7.69px 9.57px #00000012)
+    drop-shadow(10.21px 14.58px 16.09px #00000014)
+    drop-shadow(16.95px 24.21px 24px #00000017)
+    drop-shadow(25.84px 36.91px 36px #0000001a);
+}
+
+/* Boy (Growth section) */
+.shadow-boy {
+  filter: drop-shadow(0.52px 0.74px 3.04px #0000000a)
+    drop-shadow(2.23px 3.19px 5.72px #0000000f)
+    drop-shadow(5.38px 7.69px 9.57px #00000012)
+    drop-shadow(10.21px 14.58px 16.09px #00000014)
+    drop-shadow(16.95px 24.21px 24px #00000017)
+    drop-shadow(25.84px 36.91px 36px #0000001a)
+    drop-shadow(37.12px 53.03px 56px #0000001b)
+    drop-shadow(51.04px 72.91px 72px #00000021);
+}
