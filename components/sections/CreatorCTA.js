@@ -5,7 +5,7 @@ import { ctaShapes } from "@/lib/data";
 
 export default function CreatorCTA() {
   return (
-    <section className="relative overflow-hidden bg-primary">
+    <section id="creators" className="relative overflow-hidden bg-primary">
       <div aria-hidden className="hero-grid absolute inset-0" />
       <ShapeLayer shapes={ctaShapes} className="hidden xl:block" />
 
