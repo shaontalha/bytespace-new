@@ -1,26 +1,52 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --color-primary: #003be2;
+  --color-lime: #cbfc01;
+  --color-ink: #242528;
+  --color-muted: #82868e;
+  --color-placeholder: #b0b0b0;
+  --color-cloud: #f5f5f6;
+  --color-mist: #e5e6e8;
+  --color-navy: #040819;
+  --color-line: #ced0d3;
+  --color-badge: #4f4f4f;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-sans: "Satoshi", system-ui, sans-serif;
+  --font-heading: var(--font-poppins), system-ui, sans-serif;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+}
+
+/* Blue grid lines behind the hero (120px squares, like the design) */
+.hero-grid {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.12) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.12) 1px, transparent 1px);
+  background-size: 120px 120px;
+  background-position: 0 118px;
+}
+
+/* Girl (Create & Manage section) */
+.shadow-girl {
+  filter: drop-shadow(0.52px 0.74px 3.04px #0000000a)
+    drop-shadow(2.23px 3.19px 5.72px #0000000f)
+    drop-shadow(5.38px 7.69px 9.57px #00000012)
+    drop-shadow(10.21px 14.58px 16.09px #00000014)
+    drop-shadow(16.95px 24.21px 24px #00000017)
+    drop-shadow(25.84px 36.91px 36px #0000001a);
+}
+
+/* Boy (Growth section) */
+.shadow-boy {
+  filter: drop-shadow(0.52px 0.74px 3.04px #0000000a)
+    drop-shadow(2.23px 3.19px 5.72px #0000000f)
+    drop-shadow(5.38px 7.69px 9.57px #00000012)
+    drop-shadow(10.21px 14.58px 16.09px #00000014)
+    drop-shadow(16.95px 24.21px 24px #00000017)
+    drop-shadow(25.84px 36.91px 36px #0000001a)
+    drop-shadow(37.12px 53.03px 56px #0000001b)
+    drop-shadow(51.04px 72.91px 72px #00000021);
 }
