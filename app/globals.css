@@ -50,3 +50,7 @@ body {
     drop-shadow(37.12px 53.03px 56px #0000001b)
     drop-shadow(51.04px 72.91px 72px #00000021);
 }
+
+html {
+  scroll-behavior: smooth;
+}
