@@ -1,4 +1,5 @@
 import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
 import Hero from "@/components/sections/Hero";
 import Partners from "@/components/sections/Partners";
 import Courses from "@/components/sections/Courses";
@@ -17,9 +18,10 @@ export default function Home() {
         <Courses />
         <Categories />
         <Growth />
-        <CreatorCTA />
         <Testimonials />
+        <CreatorCTA />
       </main>
+      <Footer />
     </>
   );
 }
